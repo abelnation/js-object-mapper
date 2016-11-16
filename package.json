@@ -1,5 +1,5 @@
 {
-  "name": "js-object-mapper",
+  "name": "obj-mapper",
   "version": "1.0.0",
   "description": "Util lib for mapping key-value pairs from one object format to another",
   "main": "index.js",
