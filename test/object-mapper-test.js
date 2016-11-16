@@ -19,7 +19,7 @@ describe('object-mapper', function() {
 		});
 
 		it('maps src key to nested dest key', function() {
-			var mapper = new ObjectMapper({ foo: 'bar.baz' });
+			var mapper = new ObjectMapper({ 'foo': 'bar.baz' });
 			var result = mapper.map({ foo: 'test' });
 			assert.deepEqual(result, { bar: { baz: 'test' } });
 		});
